@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Guesser-Game</title>
+</head>
+<body>
+   <h1>GuesserGame - Играйте за да изследвате вашите знания и да печелите пари!</h1> 
+   <p>Здравейте потребители! Имам удоволствието да Ви представя тази нова браузър игра, която ще провери вашите познания и обща култура от различни области на образованието и света. Какво по-добро от това да Ви плащат за да учите и да надграждате себе си и интелекта си! И още по-добро нека да задвижвим интереса към това хората да се образоват и да се интересуват от случващото се около тях.</p>
+
+   <h2>Как да участвам?</h2>
+   <p>За да участвате във тази полезна и образователна игра трябва само да се регистрирате като попълните въпросния формуляр изискващ данни, със който вие ще постъпите в платформата на играта.</p>
+
+   <div class="register-container">
+     <h2 id="CreateProfile">Създай профил</h2>
+   <form id="registerForm">
+  <label for="username">Потребителско име</label>
+  <input type="text" id="reg-username" name="username" required minlength="3">
+  <label for="email">Имейл адрес</label>
+  <input type="text" id="reg-email" required>
+
+<p class="info">На този имейл ще се изпрати линк за потвърждение, за да получите достъп до платформата</p>
+
+<label for="password">Парола</label>
+<input type="password" id="reg-password" name="password" required minlength="6">
+<p id="reg-passwordStrength" class = "strength"></p>
+<p class = "info">Задължително: паролата трябва да съдържа следните типове символи - A-Z, 0-9, z0-9,A^</p>
+<label for="confirmPassword">Потвърдете паролата</label>
+<input type="password" id="reg-confirmPassword" name="confirmPassword" required>
+<p id="reg-passwordError" class="error"></p>
+
+<button type="submit" id="reg-submitBtn" disabled src="mainPage.html">Регистриране</button>
+   </form>
+</div>
+
+ <h2>Имате вече регистрация?</h2>
+   <p>Спокойно може да влезнете във вашия профил през нашата sign in система</p>
+<div class="sign-InContainer">
+   <h2 id="sign-in-Profile">Въведете вашите данни</h2>
+   <form id="sign-In">
+   <label for="username" id="userSignIn">Потребителско име</label>
+   <input type="text" id="login-username" required minlength="3">
+   <label for="password">Парола</label>
+   <input type="password" id="login-password" class="password" required minlength="6">
+   <button type="submit" id="login-btn" href = 'mainPage.html'>Логин</button>
+   <p id="login-error" class="error"></p>
+
+   </form>
+   
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <script src="auth-script.js"></script>
+</body>
+</html>

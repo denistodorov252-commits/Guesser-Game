@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Потвърждение на имейл</title>
+</head>
+<body>
+    <div class="verify-container">
+        <form id="verifyForm">
+            <h2>Потвърди имейла си</h2>
+            <p>Въведи имейла си и 6-цифрения код, който получи.</p>
+            <input type="email" id="verify-email" placeholder="Твоят имейл" required>
+            <input type="text" id="verify-code" placeholder="6-цифрен код" maxlength="6" required>
+            <button type="submit">Активирай профила</button>
+            <p id="verify-message"></p>
+            
+            
+        </form>
+    </div>
+
+
+
+
+    <script src="verify-script.js"></script>
+</body>
+</html>

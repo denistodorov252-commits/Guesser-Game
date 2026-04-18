@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Начало</title>
+</head>
+<body>
+   <h1>Това е вашето главно меню!</h1> 
+   <p>Добре дошли във главното меню на играта! </p>
+
+   <h2>Какво следва след вашето регистириране/логване?</h2>
+   <p>Вече виждате вашият потребителски профил и виртуален портфейл</p>
+<div class = "main-wrapper">
+   <aside class="sidebar">
+      <h2>ВАШИЯТ ПРОФИЛ</h2>
+      <p>Потребител: <strong id="display-username"></strong></p>
+      <p>Портфейл: <strong id="balance">0.00</strong> €</p>
+      <button id="logout-btn" style="margin-left: 0; position: static;" onclick="window.location.href = 'index.html'">Изход</button>
+   </aside>
+
+   <main class="level-container">
+      <h1>Избери трудност</h1>
+      <div class="difficulty-buttons">
+         <button onclick="window.location.href = 'easyMode.html'">Лесно|45сек - 20 въпроса|0.50€</button>
+         <button onclick="window.location.href = 'mediumMode.html'">Средно|30сек - 15 въпроса|1.50€</button>
+         <button onclick="window.location.href = 'hardMode.html'">Трудно|15сек - 10 въпроса| 3.00€</button>
+      </div>
+   </main>
+</div>
+
+
+
+
+   <script src="mainScript.js"></script>
+</body>
+</html>

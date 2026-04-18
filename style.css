@@ -1,0 +1,153 @@
+
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #567dd7;
+    color:papayawhip;
+    display:block;
+    justify-content: center;
+    align-items:center;
+    height: 100vh;
+
+}
+
+.register-container{
+    background: #465eca;
+    padding: 25px;
+    width: 350px;
+    border-radius: 25px;
+    box-shadow: 0 0 5px rgba(203, 154, 154, 0.5);
+    border-width: 15cm;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    left: 30%;
+    right: 30%;
+    
+
+}
+
+.sign-InContainer{
+    background: #465eca;
+    padding: 25px;
+    width: 350px;
+    border-radius: 25px;
+    box-shadow: 0 0 5px rgba(203, 154, 154, 0.5);
+    border-width: 15cm;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    left: 30%;
+    right: 30%;
+  
+}
+.verify-container{
+    background: #465eca;
+    padding: 25px;
+    width: 350px;
+    border-radius: 25px;
+    box-shadow: 0 0 5px rgba(203, 154, 154, 0.5);
+    border-width: 15cm;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    left: 30%;
+    right: 30%;
+}
+#sign-In{
+    margin-bottom: 5% 
+}
+
+label{
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+input{
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border:none;
+}
+
+input.valid{
+    border: 2px solid green;
+}
+
+input.invalid{
+    border: 2px solid red;
+}
+
+.strength{
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+.strength.weak{
+    color:red;
+}
+
+.strength.medium{
+    color:yellow;
+}
+
+.strength.strong{
+    color:lightgreen;
+}
+
+#reg-submitBtn{
+    text-align: center;
+justify-content: center;
+    position: absolute;
+    align-items: center;
+    margin-left: 30%;
+}
+
+#login-btn{
+    text-align:center;
+    justify-content:center;
+    position: absolute;
+    align-items:center;
+    margin-top: 5%;
+    margin-left: 30%;
+}
+
+#CreateProfile{
+    margin-left: 22%;
+}
+#sign-in-Profile{
+    margin-left: 8%;
+}
+button{
+    width: 30%;
+    padding: 2px;
+    background: white;
+    color: #020617;
+    border:none;
+    border-radius: 5px;
+    cursor:pointer;
+    font-weight: bold;
+}
+button:hover{
+    background: rgb(97, 139, 193)
+}
+
+.info{
+    font-size: 12px;
+    margin-top: 5px;
+    color: #94a3b8;
+    font-weight: bold;
+}
+
+.error{
+    color: #ef4444;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+button:disabled{
+background: #475569;
+cursor: not-allowed;
+opacity: 0.7;
+}
